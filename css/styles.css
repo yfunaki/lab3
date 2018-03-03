@@ -1,0 +1,59 @@
+#title
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+body
+{
+    background-color: black;
+    border: 2px;
+    border-style: solid;
+    border-width: thick;
+    border-color: #00FF1E;
+    border-radius: 30px;
+}
+
+h2
+{
+    color: #4ddbff;
+    font-family: 'Candal', sans-serif;
+    text-size: 100em;
+    padding: 0.5px;
+    padding-left: 10px;
+}
+
+#playerImg
+{
+    padding-right: 50px;
+}
+
+footer
+{
+    color: white;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+h1
+{
+    color: #00FF1E;
+    font-family: 'Candal', sans-serif;
+    text-align: center;
+    text-size: 1000px;
+}
+
+input[type=submit]
+{
+    display: inline-block;
+    width: 50em;
+    height: 3em;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    background-color: #CBF2D9;
+    border-radius: 20px;
+}
