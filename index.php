@@ -164,6 +164,6 @@ $pointsEarned = $pointsEarned-$winningscore;
         <br/><br/><br/>
         CST 336 Internet Programming 2018&copy; Funaki, Martinez, Peppmuller, Vucinich <br />
         <strong> Disclaimer: </strong> This information on this webpage is used only for academic purposes. <br />
-        Time taken to load: <?= round (($_SESSION['timer2'] - $_SESSION['timer'])[, int $precision = 4 [, int $mode = PHP_ROUND_HALF_UP ]] )?> seconds <br/>
+        Time taken to load: <?= ($_SESSION['timer2'] - $_SESSION['timer'])?> seconds <br/>
     </footer>
 </html>
